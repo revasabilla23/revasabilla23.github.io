@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 17px;
+    background-color: #f4f4f4;
+    color: #333333;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background-color: #8486F1;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 5px 30px;
+}
+
+.about-me, .education, .work-experience, .activities, .skills, .awards, .certificate {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.exp-item, .edu-item, .activity-item {
+    margin-bottom: 10px;
+}
+
+.job-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-details p {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.date {
+    color: #666;
+    font-style: italic;
+}
+
+.company {
+    color: #666;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #8486F1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contact-info p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social-links i.fa-envelope {
+    color: #f14646;
+}
+
+.social-links i.fa-linkedin {
+    color: #0077b5;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    margin-right: 10px;
+    align-items: center;
+}
