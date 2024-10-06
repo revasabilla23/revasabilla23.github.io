@@ -100,7 +100,6 @@ footer {
     padding: 20px;
 }
 
-
 .contact-info p {
     margin-bottom: 10px;
     text-align: center;
@@ -120,4 +119,52 @@ footer {
     font-size: 20px;
     margin-right: 10px;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .job-details {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .date {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .company {
+        margin-top: 5px;
+    }
+
+    section {
+        padding: 10px 20px;
+    }
+}
+
+.social-links a {
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a:hover {
+    color: #ddd;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ddd;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;
+    }
 }
